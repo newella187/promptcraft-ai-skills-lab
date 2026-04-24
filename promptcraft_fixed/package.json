@@ -1,0 +1,13 @@
+{
+  "name": "promptcraft-ai-skills-lab",
+  "version": "2.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "build": "mkdir -p dist && cp -r index.html src docs README.md dist/",
+    "preview": "python3 -m http.server 4173 -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
